@@ -195,7 +195,7 @@ body {
 .midSection > .up {
 	width: 120%;
 	/* height: fit-content; */
-	transform: translateY(-120px);
+	transform: translateY(-150px);
 	position: absolute;
 	top: 0;
 }
@@ -204,7 +204,7 @@ body {
 	/* height: fit-content; */
 	position: absolute;
 	bottom: 0;
-	transform: translateY(20px);
+	transform: translateY(50px);
 }
 .section1,
 .section2,
@@ -221,6 +221,7 @@ body {
 .section3_right {
 	width: 50%;
 	display: flex;
+	color: #82be8e;
 }
 .section1_right,
 .section2_left,
@@ -263,7 +264,6 @@ body {
 	opacity: 0;
 	display: none;
 	transition: all 0.7s;
-	position: fixed;
 }
 .menu p a {
 	color: #fff;
@@ -275,8 +275,7 @@ body {
 	z-index: 1;
 	opacity: 0;
 	display: none;
-	position: fixed;
-	padding-right: 100px;
+	padding-right: 50px;
 	transition: all 0.7s;
 	cursor: pointer;
 }
@@ -286,7 +285,7 @@ body {
 	height: 700px;
 	transform: translate(95px, -200px);
 	transition: all 0.7s;
-	position: fixed;
+	position: absolute;
 }
 
 @media (min-width: 1300px) {
